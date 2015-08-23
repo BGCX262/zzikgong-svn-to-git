@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PphotoCapsule</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_done">완료</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_album">AlbumActivity</string>
+    <string name="title_activity_merge">MergeActivity</string>
+    <string name="title_activity_nfc_send_image">NfcSendImageActivity</string>
+    <string name="title_activity_receive">ReceiveActivity</string>
+    <string name="title_activity_email">EmailActivity</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_nfc_merge_image">NfcMergeImageActivity</string>
+    <string name="title_activity_receive_merged_image">ReceiveMergedImageActivity</string>
+    <string name="title_activity_nfc_send_information">NfcSendInformationActivity</string>
+    <string name="title_activity_nfc_receive_merged_image">NfcReceiveMergedImageActivity</string>
+    <string name="title_activity_show_merged_image">ShowMergedImageActivity</string>
+    <string name="title_activity_alarmed_time_show">AlarmedTimeShowActivity</string>
+    <string name="title_activity_notification_message">NotificationMessageActivity</string>
+
+</resources>

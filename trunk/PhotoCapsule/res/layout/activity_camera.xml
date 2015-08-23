@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CameraActivity" >
+
+    <FrameLayout
+        android:id="@+id/camera_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9" >
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="0.1" >
+
+        <LinearLayout
+            android:id="@+id/camera_linearlayout_capture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:gravity="center"
+            android:background="#00000000" >
+
+            <ImageButton
+                android:id="@+id/camera_imageButton_capture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/camera_imagebutton_capture" 
+                android:background="#00000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/camera_linearlayout_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:gravity="center" 
+            android:visibility="invisible" 
+            android:background="#00000000" >
+
+            <ImageButton
+                android:id="@+id/camera_imageButton_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/camera_imagebutton_dday" 
+                android:background="#00000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/camera_linearlayout_send"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:visibility="invisible" 
+            android:gravity="center" 
+            android:background="#00000000" >
+
+            <ImageButton
+                android:id="@+id/camera_imageButton_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/camera_imagebutton_send" 
+                android:background="#00000000" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
